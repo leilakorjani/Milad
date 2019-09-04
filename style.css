@@ -1,11 +1,23 @@
-header { 
-    background-color: green;
+html{
+    background-color:rgb(196, 240, 182);
 }
+
 h1 {
+    background-color: rgb(22, 230, 22);
     font-size: 20px;
     color: white;
+    padding: 10px;
+    margin: 0;
 }
 a {
     text-decoration: none;
     color: black;
+}
+.trip-text{
+    background-color: rgb(191, 248, 105);
+    padding: 10px;
+}
+.trip-text p{
+    background-color:rgb(232, 245, 52);
+    margin: 0;
 }
