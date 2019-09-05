@@ -25,6 +25,11 @@ h1 {
     text-align: center;
 }
 /*nav*/
+.navigation li{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
 
 .trip-text{
     background-color: rgb(191, 248, 105);
