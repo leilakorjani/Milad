@@ -22,6 +22,7 @@ h1 {
     color: white;
     padding: 10px;
     margin: 0;
+    text-align: center;
 }
 /*nav*/
 
@@ -32,4 +33,9 @@ h1 {
 .trip-text p{
     background-color:rgb(232, 245, 52);
     margin: 0;
+}
+.link{
+    background-color: rgb(191, 248, 105);
+    height: 70px;
+    padding: 10px;
 }
