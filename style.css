@@ -25,10 +25,12 @@ h1 {
     text-align: center;
 }
 /*nav*/
-.navigation li{
+.navigation{
+    text-align: center;
+}
+.navigation li, navigation a{
     display: inline-block;
     width: 70px;
-    text-align: center;
 }
 
 .trip-text{
