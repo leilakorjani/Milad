@@ -1,5 +1,6 @@
 html{
     background-color:rgb(196, 240, 182);
+    /*width: 1000px;*/
 }
 a {
     text-decoration: none;
@@ -13,7 +14,7 @@ body{
     margin: 0;
 }
 h1 {
-    position: absolute;
+    position: relative;
     top:0;
     width: 100%;
     Height: 40px;
@@ -36,11 +37,21 @@ h1 {
 
 .trip-text{
     background-color: rgb(191, 248, 105);
-    padding: 10px;
+    padding: 0;
+    display: flex;
 }
 .trip-text p{
     background-color:rgb(232, 245, 52);
+    text-align: center;
     margin: 0;
+    width: 50%;
+}
+.trip-images{
+    display: flex;
+}
+.trip-images img{
+    width: 50%;
+    height: 100%
 }
 .link{
     background-color: rgb(191, 248, 105);
