@@ -14,7 +14,7 @@ body{
     margin: 0;
 }
 h1 {
-    position: relative;
+    position: fixed;
     top:0;
     width: 100%;
     Height: 40px;
@@ -32,29 +32,37 @@ h1 {
 }
 .navigation li, navigation a{
     display: inline-block;
-    width: 70px;
+    width: 20%;
+    font-size:0.9rem;
 }
 
-.trip-text{
+.design-text{
     background-color: rgb(191, 248, 105);
     padding: 0;
     display: flex;
 }
-.trip-text p{
+.design-text p{
     background-color:rgb(232, 245, 52);
     text-align: center;
     margin: 0;
     width: 50%;
 }
-.trip-images{
+.design-images{
     display: flex;
+    flex-wrap: wrap;
 }
-.trip-images img{
+.design-images img{
     width: 50%;
+    min-width: 400px;
     height: 100%
 }
 .link{
     background-color: rgb(191, 248, 105);
     height: 70px;
     padding: 10px;
+}
+@media (min-width: 400px){
+    .navigation li, navigation a{
+        font-size:1.2rem;
+    }
 }
