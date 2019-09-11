@@ -35,8 +35,10 @@ h1 {
     width: 20%;
     font-size:0.9rem;
 }
-
 .design-text{
+    display: none;
+}
+/*.design-text{
     background-color: rgb(191, 248, 105);
     padding: 0;
     display: flex;
@@ -46,14 +48,13 @@ h1 {
     text-align: center;
     margin: 0;
     width: 50%;
-}
+}*/
 .design-images{
     display: flex;
     flex-wrap: wrap;
 }
 .design-images img{
-    width: 50%;
-    min-width: 400px;
+    width: 100%;
     height: 100%
 }
 .link{
@@ -64,5 +65,21 @@ h1 {
 @media (min-width: 400px){
     .navigation li, navigation a{
         font-size:1.2rem;
+    }
+}
+@media (min-width: 700px){
+    .design-images img{
+        width: 50%;
+    }
+    .design-text{
+        background-color: rgb(191, 248, 105);
+        padding: 0;
+        display: flex;
+    }
+    .design-text p{
+        background-color:rgb(232, 245, 52);
+        text-align: center;
+        margin: 0;
+        width: 50%;
     }
 }
